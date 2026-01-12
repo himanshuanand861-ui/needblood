@@ -1,6 +1,6 @@
-import {connectDB} from "../../lib/db";
-import Donor from "../../models/Donor";
-import HelpRequest from "../../models/HelpRequest";
+import {connectDB} from "../lib/db";
+import Donor from "../models/Donor";
+import HelpRequest from "../models/HelpRequest";
 
 export default async function handler(req, res) {
   await connectDB();

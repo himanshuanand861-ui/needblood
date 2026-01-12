@@ -1,4 +1,4 @@
-import { connectDB } from "../../lib/db";
+import { connectDB } from "../lib/db";
 import Donor from "../models/Donor";
 import UserOTP from "../models/UserOTP";
 

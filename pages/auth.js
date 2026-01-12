@@ -1,5 +1,5 @@
-import { connectDB } from "../../lib/db";
-import UserOTP from "../../models/UserOTP";
+import { connectDB } from "../lib/db";
+import UserOTP from "../models/UserOTP";
 
 export default async function handler(req,res){
   await connectDB();
